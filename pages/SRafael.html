@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+  <!-- Para que detecte caracteres del espanol -->
+  <meta charset="UTF-8">
+  <title>San Rafael</title>
+  <link rel="icon" href="../img/iconos/rafael.png">
+  <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    
+</head>
+<body>
+<header>
+
+  <!-- Navbar -->
+    <nav class="light-blue lighten-1">
+    <div class="nav-wrapper container">
+     <a id="logo-container" href="../index.html"><i class="black-text brand-logo material-icons">home</i></a>
+      <a href="#" data-target="mobile-demo" class="black-text sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="black-text" href="Noticias.html">Noticias</a></li>
+        <li><a class="black-text" href="Servicios.html">Servicios</a></li>
+        <li><a class="black-text" href="Grupos.html">Grupos</a></li>
+        <li><a class="black-text" href="Historia.html">Historia</a></li>
+        <li><a class="black-text" href="SJesus.html">Sagrado Corazón de Jesús</a></li>
+        <li><a class="black-text" href="SMaria.html">Sagrado Corazón de María</a></li>
+        <li><a class="black-text" href="SMartin.html">San Martín</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="light-blue lighten-1 sidenav" id="mobile-demo">
+    <li><a href="Noticias.html">Noticias</a></li>
+    <li><a href="Servicios.html">Servicios</a></li>
+    <li><a href="Grupos.html">Grupos</a></li>
+    <li><a href="Historia.html">Historia</a></li>
+    <li><a href="SJesus.html">Sagrado Corazón de Jesús</a></li>
+    <li><a href="SMaria.html">Sagrado Corazón de María</a></li>
+    <li><a href="SMartin.html">San Martín</a></li>
+  </ul>
+       
+</header>
+
+<main>
+  San Rafael
+</main>
+
+<footer class="light-blue lighten-1 page-footer">
+    <div class="footer-copyright black-text right-align">
+       <div class="black-text container right-align">
+          © 2019 powered by Gock
+    </div>
+</footer>
+</body>
+<div class="loader-wrapper">
+  <div class="loader">
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__ball"></div>
+  </div>
+</div>
+<!-- Scripts Materialze-->
+<script type="text/javascript" src="../back/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../back/materialize.min.js"></script>
+<script src="../back/init.js"></script>
+<script >
+  $(window).on("load",function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+</html>

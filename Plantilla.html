@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<!-- Para que detecte caracteres del espanol -->
+	<meta charset="UTF-8">
+	<title>Sitio Web</title>
+	<link rel="icon" href="img/iconos/cruz.png">
+	<!-- Material Icons -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<!-- Materialize CSS -->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	
+</head>
+<body>
+<header>
+
+	<!-- Navbar -->
+  	<nav class="black white-text">
+    <div class="nav-wrapper container">
+     <a id="logo-container" href="index.html"><i class="brand-logo material-icons">home</i></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="pages/Noticias.html">Noticias</a></li>
+        <li><a href="pages/Servicios.html">Servicios</a></li>
+        <li><a href="pages/Grupos.html">Grupos</a></li>
+        <li><a href="pages/Historia.html">Historia</a></li>
+        <li><a href="pages/SJesus.html">Sagrado Corazón de Jesús</a></li>
+        <li><a href="pages/SMaria.html">Sagrado Corazón de María</a></li>
+        <li><a href="pages/SRafael.html">San Rafael</a></li>
+        <li><a href="pages/SMartin.html">San Martín</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="pages/Noticias.html">Noticias</a></li>
+    <li><a href="pages/Servicios.html">Servicios</a></li>
+    <li><a href="pages/Grupos.html">Grupos</a></li>
+    <li><a href="pages/Historia.html">Historia</a></li>
+    <li><a href="pages/SJesus.html">Sagrado Corazón de Jesús</a></li>
+    <li><a href="pages/SMaria.html">Sagrado Corazón de María</a></li>
+    <li><a href="pages/SRafael.html">San Rafael</a></li>
+    <li><a href="pages/SMartin.html">San Martín</a></li>
+  </ul>
+       
+</header>
+
+<main>
+	
+</main>
+
+<footer class="black page-footer">
+    <div class="footer-copyright">
+       <div class="container right-align">
+          © 2019 powered by Gock
+    </div>
+</footer>
+</body>
+<!-- Preloader -->
+<div class="loader-wrapper">
+  <div class="loader">
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__ball"></div>
+  </div>
+</div>
+<!-- Scripts Materialze-->
+<script type="text/javascript" src="back/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="back/materialize.min.js"></script>
+<script src="back/init.js"></script>
+<!-- Script para mostrar preloader mientras carga -->
+<script >
+  $(window).on("load",function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+</html>
