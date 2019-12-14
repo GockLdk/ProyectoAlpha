@@ -1,3 +1,7 @@
+$(window).on("load",function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+
 //JS de Parallax
 (function($){
   $(function(){
