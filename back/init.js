@@ -1,8 +1,12 @@
-//Navbar mobile
- $(document).ready(function(){
+//JS de Parallax
+(function($){
+  $(function(){
+
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-  });
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
 
 //JS de materialboxed (fullscreen las imagenes)
  document.addEventListener('DOMContentLoaded', function() {
