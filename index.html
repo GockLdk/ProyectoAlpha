@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang = "es">
 <head>
-    <!-- Para que detecte caracteres del espanol -->
-	  <meta charset="UTF-8">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Orbitron|Playball" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Gock</title>
-    <link rel="icon" href="img/icono.png">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Para que detecte caracteres del espanol -->
+	<meta charset="UTF-8">
+	<title>Sitio Web</title>
+	<link rel="icon" href="img/iconos/cruz.png">
+	<!-- Material Icons -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<!-- Materialize CSS -->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="grey darken-4" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo material-icons">home</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="Personal.html">Mario</a></li>
-        <li><a href="Educacion.html">Resume</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="black sidenav">
-        <li><a class="white-text" href="Personal.html">Mario</a></li>
-        <li><a class="white-text" href="Educacion.html">Resume</a></li>
+
+	<!-- Navbar -->
+  	<nav class="black white-text">
+    <div class="nav-wrapper container">
+     <a id="logo-container" href="index.html"><i class="brand-logo material-icons">home</i></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="pages/Noticias.html">Noticias</a></li>
+        <li><a href="pages/Servicios.html">Servicios</a></li>
+        <li><a href="pages/Grupos.html">Grupos</a></li>
+        <li><a href="pages/Historia.html">Historia</a></li>
+        <li><a href="pages/SJesus.html">Sagrado Corazón de Jesús</a></li>
+        <li><a href="pages/SMaria.html">Sagrado Corazón de María</a></li>
+        <li><a href="pages/SRafael.html">San Rafael</a></li>
+        <li><a href="pages/SMartin.html">San Martín</a></li>
       </ul>
-      <a href="index.html" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
     </div>
   </nav>
 
-  <!-- Parallax -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="pages/Noticias.html">Noticias</a></li>
+    <li><a href="pages/Servicios.html">Servicios</a></li>
+    <li><a href="pages/Grupos.html">Grupos</a></li>
+    <li><a href="pages/Historia.html">Historia</a></li>
+    <li><a href="pages/SJesus.html">Sagrado Corazón de Jesús</a></li>
+    <li><a href="pages/SMaria.html">Sagrado Corazón de María</a></li>
+    <li><a href="pages/SRafael.html">San Rafael</a></li>
+    <li><a href="pages/SMartin.html">San Martín</a></li>
+  </ul>
+       
+
+
+	  <!-- Parallax -->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text white-text">Mayito</h1>
+        <h1 class="header center teal-text white-text">Sitio Web</h1>
         <div class="row center">
-          <h4 class="header col s12 light">Firmes y Dignos!</h4>
+          <h4 class="header col s12 light white-text">1 Rectoria <br>3 Capillas <br> Una sola comunidad! </h4>
         </div>
         <div class="row center">
           <!-- Toast -->
-          <a onclick="M.toast({html: 'Dale caloh!'})" class="btn-large waves-effect waves-light pink lighten-1 white-text pulse">Tocame</a>
+          <a onclick="M.toast({html: 'Jesus Vive!'})" class="btn-large waves-effect waves-light pink lighten-1 white-text pulse">Tocame</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/Fotos/PrebeHermanos.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/img/vitral.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -57,23 +72,48 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m6 l6">
+        <div class="col s12 m4 l4 xl4">
           <div class="icon-block">
-            <h2 class="center pink-text"><i class="material-icons">person</i></h2>
-            <h5 class="center">Personalidad</h5>
+            <h2 class="center pink-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Comunidad</h5>
 
-            <p class="light">Dispuesto a luchar sin miedo a morir, aventurado a nuevas experiencias en todos  los ámbitos, siempre buscando ser mejor que ayer, tratando de aprender de los demás día con día esperando aportarte algo, recuerda que somos el "Dream Team".</p>
+            <p class="center light">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
 
-        <div class="col s12 m6 l6">
+        <div class="col s12 m4 l4 xl4">
           <div class="icon-block">
-            <h2 class="center pink-text"><i class="material-icons">memory</i></h2>
-            <h5 class="center">Loading...</h5>
+            <h2 class="center pink-text"><i class="material-icons">favorite</i></h2>
+            <h5 class="center">Amor</h5>
 
-            <p class="light">Futuro Ingeniero en Computación intrigado en este nuevo mundo tecnológico que cada día evoluciona más, que espera poder tener un poco de conocimiento en cada de sus áreas "FullStack".</p>
+            <p class="center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
+
+        <div class="col s12 m4 l4 xl4">
+          <div class="icon-block">
+            <h2 class="center pink-text"><i class="material-icons">fitness_center</i></h2>
+            <h5 class="center">Fortaleza</h5>
+
+            <p class="center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -81,16 +121,17 @@
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="img/Fotos/PrebeHermanos.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/img/vitral.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container MAGO">
+  <div class="container">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h3 class="left-align light">"Si acaso tu opinión cabe en un sí o un no, y no sabes rectificar. Si puedes definir el odio o el amor... amigo que desilusión" – Mägo de Oz</h3>
+          <h3 class="center light">El que os recibe a vosotros, a mí me recibe, y el que me recibe a mí, recibe al que me envió.</h3>
+          <h3 class="right-align light">~Mateo 10:40</h3>
         </div>
       </div>
 
@@ -102,28 +143,42 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h4 class="header col s12 light">Si la vida te pisa, desenvaina una sonrisa</h4>
+          <h4 class="header col s12 light">Yo soy el camino, la verdad y la vida.</h4>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/Fotos/PrebeHermanos.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+    <div class="parallax"><img src="img/img/vitral.jpg" alt="Unsplashed background img 3"></div>
+  </div>  
 
-<!-- Footer -->
-  <footer class="grey darken-4 page-footer teal">
+
+<footer class="black page-footer">
     <div class="footer-copyright">
-      <div class="container">
-        <!-- Boton Github -->
-         <a class="left github-button" href="https://github.com/GockLdk" data-size="large" aria-label="Follow @GockLdk on GitHub">Follow @GockLdk</a>
-      <a class="right brown-text text-lighten-3">©2019,Gock</a>
-      </div>
+       <div class="container right-align">
+          © 2019 powered by Gock
     </div>
-  </footer>
-  <!-- Scripts -->
+</footer>
 </body>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="js/init.js"></script>
+<!-- Preloader -->
+<div class="loader-wrapper">
+  <div class="loader">
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__ball"></div>
+  </div>
+</div>
+
+<!-- Scripts Materialze-->
+<script type="text/javascript" src="back/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="back/materialize.min.js"></script>
+<script src="back/init.js"></script>
+<!-- Script para mostrar preloader mientras carga -->
+<script >
+  $(window).on("load",function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+
 </html>
