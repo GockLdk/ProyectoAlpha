@@ -62,5 +62,10 @@
 <script type="text/javascript" src="../back/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="../back/materialize.min.js"></script>
 <script src="../back/init.js"></script>
-
+<!-- Script para mostrar preloader mientras carga -->
+<script>
+  $(window).on("load",function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
 </html>
